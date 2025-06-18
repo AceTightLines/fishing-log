@@ -145,7 +145,7 @@
       e.preventDefault();
       const formData = new FormData(form);
       const query = new URLSearchParams(formData).toString();
-      const url = "https://script.google.com/macros/s/AKfycbXYZ1234567/exec?" + query;
+      const url = "https://script.google.com/macros/s/AKfycbzyR8DYjmuZ8zpFQ42UubMrZ969nOgpPY6YsoKCw9Z6i2GzbP9hLU4qaKz7CV6WyWsaEQ/exec?" + query;
 
       fetch(url)
         .then(response => response.text())
